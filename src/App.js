@@ -14,14 +14,16 @@ const App = () => {
         AOS.init();
     }, []);
 
+
     return (
         <div>
             <div className='navbarContainer'>
-                <ul className='navbar'>
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
-                    <li>Placeholder</li>
+                <ul data-aos='fade-down' className='navbar'>
+                    <li>Men's</li>
+                    <li>Women's</li>
+                    <li>Login/Sign Up</li>
+                    <li>Shopping Cart</li>
+                    <li>Contact Us</li>
                 </ul>
             </div>
             <div className='backgroundImageContainer'>
@@ -31,6 +33,12 @@ const App = () => {
             </div>
             <div className='headerContainer'>
                 <p data-aos='fade-up' className='siteHeader'>Mode</p>
+            </div>
+            <div>
+                <h1 className='sloganHeader'>The best place for fashion.</h1>
+                    <div className='fasionImages'>
+
+                    </div>
             </div>
         </div>
     );
